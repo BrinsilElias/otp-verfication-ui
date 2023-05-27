@@ -1,0 +1,105 @@
+@import "./index.css";
+
+.headinglg {
+    font-size: 3rem;
+    font-weight: var(--fw-md);
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: var(--clr-primary-800);
+}
+
+.headingmd {
+    font-size: 1rem;
+    font-weight: var(--fw-md);
+    color: var(--clr-text-dark);
+    margin-top: 0.6rem;
+}
+
+.bodytextlgdark {
+    font-size: 1rem;
+    font-weight: var(--fw-sb);
+    color: var(--clr-text-dark);
+}
+
+.bodytextlglight {
+    font-size: 1rem;
+    font-weight: var(--fw-rg);
+    color: var(--clr-text-light);
+}
+
+.bodytextsmdark {
+    font-size: 0.875rem;
+    font-weight: var(--fw-md);
+    color: var(--clr-text-dark);
+}
+
+.bodytextsmlight {
+    font-size: 0.875rem;
+    font-weight: var(--fw-rg);
+    color: var(--clr-text-light);
+}
+
+.headerlink {
+    font-size: 0.8rem;
+    font-weight: var(--fw-sb);
+    color: var(--clr-neutral-100);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flexbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexgap {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.btn {
+    text-decoration: none;
+    display: inline-flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.875rem;
+    font-weight: var(--fw-md);
+}
+
+.btn_cancel {
+    background-color: var(--clr-neutral-100);
+    border: 1px var(--clr-border-dark) solid;
+    color: var(--clr-text-dark);
+}
+
+.btn_submit {
+    background-color: var(--clr-primary-800);
+    color: var(--clr-neutral-100);
+}
+
+.btn_cancel:hover{
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
+}
+.btn_submit:hover {
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
+}
+
+.add_icon {
+    width: 48px;
+    aspect-ratio: 1;
+    background-image: url("./icons/otp-icon.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
